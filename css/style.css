@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Changa:400,700|Roboto:300i,400');
+
+/* Kraj fontova */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.last {
+  margin-right: 0;
+}
+.key {
+  font-weight: bold;
+}
+
+/* Kraj općih stilova */
+
+/* NASLOVNA */
+#divHeader {
+  background-color: rgba(34, 38, 41, 0.9);
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+#divHeaderLogo {
+  color: #86c629;
+  margin-top: 20px;
+}
+#divHeaderLogo span {
+  font-family: "Changa";
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#divHeaderNav {
+  margin-top: 35px;
+  padding-left: 60px;
+}
+
+#divHeaderNav ul li {
+  float: left;
+}
+
+#divHeaderNav ul li a {
+  font-family: "Changa";
+  color: #86c629;
+  margin-right: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#divHeaderNav ul li a:hover {
+  color: #ffffff;
+}
+/* Kraj Headera */
+
+#divSlider {
+ width:100%;
+}
+.imageSlide li {
+  height: 440px;
+}
+
+#divSliderWrapper {
+  border: 0;
+  text-align: center;
+}
+.divSliderBox {
+  margin: 100px;
+  background-color: rgba(34, 38, 41, 0.6);
+  padding: 30px;
+  color: #ffffff;
+}
+
+.divSliderBox h1 {
+  font-family: "Changa";
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.divSliderBox h3 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.divSliderBox button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #86c629;
+  color: #222629;
+  font-weight: bold;
+}
+
+.divSliderBox button:hover {
+  background-color: #222629;
+  color: #ffffff;
+}
+/* Kraj Slidera */
+
+.divBoxWrapper {
+  text-align: center;
+}
+.divBoxText {
+  text-align: center;
+  margin-top: 100px;
+  padding: 40px;
+}
+.divBoxText h2 {
+  font-family: "Changa";
+  margin-bottom: 20px;
+}
+.divBoxText p {
+  text-align: left;
+  line-height: 2em;
+}
+.divBoxImage {
+  padding: 0;
+}
+.divBoxImage img {
+  padding: 0;
+}
+
+/* Kraj Boxova O nama i Naš moto */
+
+#divCounter {
+  margin: 50px auto;
+  background-color: rgba(34, 38, 41, 0.9);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#divCounter h2 {
+  color: #86c629;
+  margin-bottom: 30px;
+}
+
+#divCounter i {
+  font-size: 3em;
+  color: #86c629;
+  margin-bottom: 10px;
+}
+
+#divCounter span {
+  font-size: 1.2em;
+  color: #86c629;
+}
+
+#divCounter p {
+  font-size: 1.2em;
+  color: #86c629;
+  font-family: "Changa";
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* Kraj Countera */
+
+#divTestimonialWrapper {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+#divTestimonialWrapper h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.testimonial {
+  font-style: italic;
+  text-align: center;
+  line-height: 2em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.testimonial::before {
+  content: open-quote;
+  font-size: 2em;
+}
+
+.testimonial::after {
+  content: close-quote;
+  font-size: 2em;
+}
+/* Kraj Testimonial Slidera */
+
+#divFooter {
+  background-color: rgba(34, 38, 41, 0.9);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #86c629;
+}
+
+#divFooterWrapper li {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+#divFooterWrapper hr {
+  border: 1px solid #86c629;
+}
+
+.bottomFooter span {
+    font-size: 0.8em;
+}
+
+.bottomFooter i {
+    font-size: 1.2em;
+    color: #86c629;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+/* Kraj Footera */
+
+/* USLUGE */
+
+#divUslugeWrapper {
+  margin-top: 40px;
+}
+
+.tab_wrapper ul li {
+  font-family: "Changa";
+}
+.tab_wrapper ul li.active {
+  border-color: #86c629;
+  color: #86c629;
+  font-family: "Changa";
+}
+.tab_wrapper ul {
+  border-color: #86c629;
+}
+.tab_wrapper .content_wrapper {
+  border-color: #86c629;
+}
+.tab_content h3 {
+  font-family: "Changa";
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.tab_content p {
+  margin-bottom: 20px;
+  line-height: 2em;
+}
+.tab_content button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #86c629;
+  color: #222629;
+  font-weight: bold;
+}
+.tab_content button:hover {
+  background-color: #222629;
+  color: #ffffff;
+}
+
+.tab_wrapper .content_wrapper .accordian_header.active {
+  color: #86c629;
+  border-bottom: 1px solid #86c629;
+}
+.tab_wrapper .content_wrapper .accordian_header.active .arrow {
+    border-top: 3px solid #86c629;
+    border-left: 3px solid #86c629;
+}
+.tab_wrapper .content_wrapper .accordian_header.active:after {
+    background: #86c629;
+}
+
+/* PORTFOLIO */
+
+#divPortfolioWrapper {
+ margin-top: 40px;
+}
+#divPortfolioHeadline h2 {
+  font-family: "Changa";
+  margin-bottom: 10px;
+}
+#divPortfolioHeadline p {
+  margin-bottom: 20px;
+}
+#divGallery {
+  margin-bottom: 40px;
+}
+#divGallery img {
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#divGallery img:hover {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.rowGallery {
+  justify-content: center;
+}
+.fancybox {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 4px 5px 0px rgba(134, 198, 41, 0.65);
+}
+
+#divPartnerHeadline {
+ margin-bottom: 20px;
+}
+#divPartnerHeadline h2 {
+  font-family: "Changa";
+  margin-bottom: 10px;
+}
+.sliderContent ul li {
+  text-align: center;
+}
+
+/* BLOG */
+
+#divBlogWrapper a {
+  color: #222629;
+  text-decoration: none;
+}
+#divBlogWrapper a:hover {
+  color: #86c629;
+}
+#divBlogSlider {
+}
+.divBlogImage {
+  margin: 170px;
+  background-color: rgba(34, 38, 41, 0.6);
+  padding: 30px;
+}
+#divBlogWrapper .divBlogImage a{
+  color: #ffffff;
+}
+#divBlogWrapper .divBlogImage a:hover{
+  color: #86c629;
+}
+#divBlogSlider ul li {
+  text-align: center;
+}
+.divBlogHeadline h2 {
+  font-family: "Changa";
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.divBlogHeadline p {
+  line-height: 2em;
+}
+
+#divBlogContent {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.divBlogBox {
+  margin-top: 20px;
+}
+.divBlogBox h3 {
+  font-family: "Changa";
+}
+
+/* KONTAKT */
+
+#divFormHeadline {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#divFormHeadline h2 {
+  font-family: "Changa";
+  margin-bottom: 10px;
+}
+#divFormWrapper{
+  margin-bottom: 20px;
+}
+#divFormBox input {
+  margin-bottom: 5px;
+  font-size: 0.8em;
+}
+#divFormBox input[type=text] {
+  width: 30%;
+}
+#divFormBox textarea {
+  margin-bottom: 5px;
+  font-size: 0.8em;
+}
+#divFormBox button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #86c629;
+  color: #222629;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#divFormBox button:hover {
+  background-color: #222629;
+  color: #ffffff;
+}
+#divDataBox {
+  margin-bottom: 20px;
+}
+#divDataBox ul li {
+  margin-bottom: 10px;
+  line-height: 2em;
+}
+
+/* SLIDER ARROW FIX */
+
+.flex-direction-nav a {
+  overflow: visible;
+}
